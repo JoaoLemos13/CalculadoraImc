@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de calculo IMC</title>
+    <meta name="description" content="Tabala de Caluclo do Imc para homem e mulher">
+    <link rel="stylesheet" href="/Design/reset.css">
+    <link rel="stylesheet" href="/Design/style.css">
+    <link rel="shortcut icon" href="/img/WhatsApp Image 2023-01-04 at 22.17.13.jpeg" type="image/x-icon">
+</head>
+<body>
+   
+<header>
+    <h1>Calculadora IMC</h1>  
+    <nav>
+        <ul>
+            <a target="_blank" href="https://www.saude.rj.gov.br/obesidade/noticias/
+            2019/03/imc-voce-sabe-o-que-o-indice-de-massa-corporal-diz-sobre-sua-saude#:~:text=Criado%
+            20no%20s%C3%A9culo%2019%20pelo,abaixo%20ou%20acima%20do%20peso."><li>O que é o IMC ? </li></a>
+           <a target="_blank" href="https://www.spartanosuplementos.com.br"><li>Spartano Suplementos</li></a> 
+            <a target="_blank" href="http://spartano.blog/2023/08/04/em-quanto-tempo-uma-dieta-comeca-realmente-fazer-efeito/"><li>Como emagrecer </li></a>
+        </ul>
+      
+    </nav>
+</header>
+    
+    <article>
+<h2>O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</h2>
+<span>IMC = Peso ÷ (Altura × Altura)</span> <br> <br>  
+<h2>Exemplo de como calcular o IMC:</h2>
+<span>IMC = 80 kg ÷ (1,80 m × 1,80 m) = 24,69 kg/m2 (Peso ideal)</span> <br> <br>
+<h2 >Utilize a calculadora abaixo para fazer o seu cálculo:</h2>
+
+
+</div>
+
+
+<div class="calculadora" data-calculadora>
+<h1>Calculadora</h1>
+<label for="">infome seu peso(KG)</label> <br> <br>
+<input maxlength="3" id="peso" data-peso placeholder="Qual seu peso" type="text"> <br><br>
+<div class="mensagemErro" id="mensagemErroPeso"></div>
+<label for="">Informe sua Altura(metro e cm)</label> <br> <br>
+<input maxlength="3" id="altura" data-altura placeholder="Qual sua Altura" type="text"> <br> <br> <br>
+<div class="mensagemErro" id="mensagemErroAltura"></div>
+<button type="submit" id="button" data-calcular>Calcular</button> <br> <br>
+<span id="resultadoDoImc"></span><span id="classificação"></span>
+</div>
+
+
+</article>
+    <script defer src="/App/main.js"></script>
+    <script defer src="/App/validacoes.js"></script>
+<footer>Desenvolvido por Spartano Suplementos <br>
+Todos os direitos 2023</footer>
+   
+</body>
+</html>
